@@ -1,6 +1,5 @@
-// console.log(process.argv[2]);
-// console.log(process.argv[3]);
+function mostrarTema(tema) {
+  console.log(`Estoy aprendiendo ${tema}`);
+};
 
-for (let i = 2; i < process.argv.length; i++) {
-  console.log(process.argv[i]);
-}
+setTimeout(mostrarTema, 3000, 'Node.js');
